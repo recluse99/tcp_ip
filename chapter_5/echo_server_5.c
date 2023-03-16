@@ -62,7 +62,7 @@ int main(int argc, char *argv[]) {
             printf("connected client %d \n", i + 1);
         }
 
-        // ? if 好像也行 。。。 。 while 是为了更安全？？
+        // while
         while (0 != (str_len = read(clnt_sock, message, BUF_SIZE))) {
             write(clnt_sock, message, str_len);
         }

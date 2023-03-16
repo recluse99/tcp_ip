@@ -89,8 +89,6 @@ int main(int argc, char *argv[]) {
         }
       }
 
-
-
       //
       printf("numbers....\n");
       for (int i = 0; i < 100; ++i) {
@@ -99,7 +97,7 @@ int main(int argc, char *argv[]) {
         }
       }
 
-      // 处理数据  这里还可以优化y一下， index 记录了 有多少 计算数字
+      // 处理数据  这里还可以优化一下， index 记录了 有多少 计算数字
       if (operator[0] == '+') {
         for (int i = 0; i < 100; ++i) {
           if (number[i] != 0) {
