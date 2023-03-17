@@ -56,6 +56,8 @@ int main(int argc, char* argv[])
 
     write(sock, "thanks\n", 10);
 
+    
+
     fclose(fp);
     close(sock);
 
