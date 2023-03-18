@@ -10,6 +10,8 @@ int main(int argc, char* argv[])
 
     int lval = 20;
 
+    int a = 9;
+
     ++gval;
     lval += 6;
 
