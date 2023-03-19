@@ -13,8 +13,7 @@ enable_testing()
 # 将 当前目录下的源文件保存到 DIR_SRCS
 # aux_source_directory(. DIR_SRCS)
 
-add_executable(tcp_ip main.cpp chapter_5/echo_server_5.c chapter_5/echo_client_5.c chapter_5/op_client.c
-        chapter_5/op_server.c chapter_6/udp_server.c chapter_6/udp_client.c chapter_7/file_server.c chapter_7/file_client.c chapter_9/gethostbyname.c chapter_10/wait.c)
+add_executable(tcp_ip main.cpp chapter_10/signal.c chapter_10/sigaction.c chapter_10/remove_zombie.c)
 
 set(CPACK_PROJECT_NAME tcp_ip)
 set(CPACK_PROJECT_VERSION 0.1.0)
